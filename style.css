@@ -18,5 +18,36 @@ form {
   background-color: #f9f7fe;
 }
 input[type="search"] {
-  padding: 15px 150px;
+  padding: 20px 150px;
+  border-radius: 15px;
+  background-color: #d3c3d5a3;
+  border: 1px;
+}
+input[type="submit"] {
+  padding: 20px 35px;
+  border: 1px;
+  border-radius: 15px;
+  background-color: #889abec2;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+h1 {
+  font-family: "Inter", sans-serif;
+  transform: translate(155px, 8px) scale(1.5, 1.5);
+}
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  transform: scale(2.8, 2.8) translate(320px, -7px);
+}
+p {
+  font-family: "Inter", sans-serif;
+  color: #3c4557c2;
+}
+footer {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: #535f77c2;
+  transform: translate(100px, 50px);
 }
