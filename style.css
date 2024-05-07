@@ -1,2 +1,22 @@
+body {
+  margin: 50px 400px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(220, 217, 249) 0%,
+    rgb(172, 224, 217) 89.8%
+  );
+}
 
-
+.weather-app {
+  padding: 75px;
+  display: block;
+  background-color: #f9f7fe;
+  border: 1px;
+  border-radius: 50px;
+}
+form {
+  background-color: #f9f7fe;
+}
+input[type="search"] {
+  padding: 15px 150px;
+}
