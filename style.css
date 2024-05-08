@@ -16,11 +16,12 @@ body {
 }
 form {
   background-color: #f9f7fe;
+  transform: translate(0, -25px);
 }
 input[type="search"] {
   padding: 20px 150px;
   border-radius: 15px;
-  background-color: #d3c3d5a3;
+  background-color: #bdabc0a3;
   border: 1px;
 }
 input[type="submit"] {
@@ -31,23 +32,49 @@ input[type="submit"] {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   color: #ffffff;
+  transition: all 200ms ease-in-out;
+  opacity: 1;
+}
+
+input[type="submit"]:hover {
+  color: #ffffff;
+  background-color: rgba(217, 158, 113, 0.804);
+  cursor: pointer;
 }
 h1 {
   font-family: "Inter", sans-serif;
-  transform: translate(155px, 8px) scale(1.5, 1.5);
+  transform: translate(240px, 15px) scale(1.8, 1.8);
+  transition: all 150ms ease-in-out;
+}
+h1:hover {
+  color: rgba(217, 158, 113, 0.804);
 }
 h2 {
   font-family: "Inter", sans-serif;
-  font-size: 20px;
-  transform: scale(2.8, 2.8) translate(320px, -7px);
+  font-size: 30px;
+  transform: scale(2.8, 2.8) translate(305px, -7px);
+}
+.unit {
+  font-size: 9px;
+  font-weight: 400;
 }
 p {
   font-family: "Inter", sans-serif;
   color: #3c4557c2;
+  transform: translate(0, -10px);
 }
+.humidity-value {
+  color: #8049b3c2;
+  font-weight: 750;
+}
+.wind-value {
+  color: #8049b3c2;
+  font-weight: 750;
+}
+
 footer {
   font-family: "Inter", sans-serif;
   font-size: 13px;
   color: #535f77c2;
-  transform: translate(100px, 50px);
+  transform: translate(110px, 60px);
 }
