@@ -13,6 +13,7 @@ body {
   background-color: #f9f7fe;
   border: 1px;
   border-radius: 50px;
+  box-shadow: 5px 5px 35px rgba(153, 153, 153, 0.785);
 }
 form {
   background-color: #f9f7fe;
@@ -34,6 +35,12 @@ input[type="submit"] {
   color: #ffffff;
   transition: all 200ms ease-in-out;
   opacity: 1;
+}
+input::placeholder {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  transform: translate(-105px, 0);
+  font-weight: 400;
 }
 
 input[type="submit"]:hover {
@@ -77,4 +84,7 @@ footer {
   font-size: 13px;
   color: #535f77c2;
   transform: translate(110px, 60px);
+}
+a {
+  color: #8049b3c2;
 }
