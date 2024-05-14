@@ -68,7 +68,7 @@ h2 {
   font-size: 95px;
   margin: 0;
   padding: 0;
-  transform: translate(320px, -40px);
+  transform: translate(320px, 0px);
 }
 .unit {
   font-size: 20px;
