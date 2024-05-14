@@ -1,5 +1,5 @@
 body {
-  margin: 50px 400px;
+  margin: 40px 370px;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(220, 217, 249) 0%,
@@ -8,7 +8,7 @@ body {
 }
 
 .weather-app {
-  padding: 75px;
+  padding: 90px;
   display: block;
   background-color: #f9f7fe;
   border: 1px;
@@ -18,6 +18,9 @@ body {
 form {
   background-color: #f9f7fe;
   transform: translate(0, -25px);
+  align-items: center;
+  display: block;
+  margin: 0 auto;
 }
 input[type="search"] {
   padding: 20px 150px;
@@ -49,27 +52,33 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 #city {
+  margin: 0 auto;
+  padding: 0;
   font-family: "Inter", sans-serif;
   font-weight: 800;
-  transform: translate(240px, 15px) scale(1.8, 1.8);
+  font-size: 70px;
   transition: all 150ms ease-in-out;
+  transform: translate(15px, 20px);
 }
 #city:hover {
   color: rgba(217, 158, 113, 0.804);
 }
 h2 {
   font-family: "Inter", sans-serif;
-  font-size: 30px;
-  transform: scale(2.8, 2.8) translate(305px, -7px);
+  font-size: 95px;
+  margin: 0;
+  padding: 0;
+  transform: translate(320px, -40px);
 }
 .unit {
-  font-size: 9px;
+  font-size: 20px;
   font-weight: 400;
 }
 p {
   font-family: "Inter", sans-serif;
   color: #3c4557c2;
-  transform: translate(0, -10px);
+  transform: translate(15px, -75px);
+  margin: 0;
 }
 .humidity-value {
   color: #8049b3c2;
@@ -84,7 +93,8 @@ footer {
   font-family: "Inter", sans-serif;
   font-size: 13px;
   color: #535f77c2;
-  transform: translate(110px, 60px);
+  text-align: center;
+  transform: translate(0px, 55px);
 }
 a {
   color: #8049b3c2;
