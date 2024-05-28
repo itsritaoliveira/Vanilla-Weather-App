@@ -80,11 +80,11 @@ p {
   transform: translate(15px, -75px);
   margin: 0;
 }
-.humidity-value {
+#humidity-value {
   color: #8049b3c2;
   font-weight: 750;
 }
-.wind-value {
+#wind-value {
   color: #8049b3c2;
   font-weight: 750;
 }
