@@ -58,7 +58,7 @@ input[type="submit"]:hover {
   font-weight: 800;
   font-size: 70px;
   transition: all 150ms ease-in-out;
-  transform: translate(15px, 20px);
+  transform: translate(15px, -5px);
 }
 #city:hover {
   color: rgba(217, 158, 113, 0.804);
