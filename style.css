@@ -89,15 +89,15 @@ p {
   font-weight: 750;
 }
 .forecast {
-  padding: 5px;
   display: flex;
   justify-content: space-around;
-  background-color: #d3c6d7;
-  border: 1px solid #d3c6d7;
-  border-radius: 20px;
+  margin-top: 10px;
+  margin: 0;
 }
 .day-of-the-week {
-  transform: translate(62px, -5px);
+  display: block;
+  text-align: center;
+  margin: 0 auto;
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 800;
@@ -105,18 +105,29 @@ p {
 }
 .max-temperature-forecast {
   color: #6d1fb6c2;
-  transform: translate(-42px, 85px);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+  padding: 0 10px;
   font-family: "Inter", sans-serif;
   font-weight: 700;
 }
 .min-temperature-forecast {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+  padding: 0 10px;
   color: #6d7b98c2;
-  transform: translate(-90px, 85px);
   font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 .forecast-icon {
-  transform: scale(0.9);
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: block;
 }
 footer {
   font-family: "Inter", sans-serif;
