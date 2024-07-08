@@ -100,7 +100,7 @@ p {
 .day-of-the-week {
   display: block;
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 20px;
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 800;
